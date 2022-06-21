@@ -42,17 +42,30 @@ align-items: center;
     transform: scale(1.1);
     box-shadow:inset 0px 0px 20px 20px rgb(75, 62, 62);
 }
+#get {
+    font-size: 1.4em;
+    color: rgba(0, 0, 0,0.5);
+}
 #container .jokes {
     padding: 0px 60px;
     text-align: center ;
 }
 @media screen and (max-width:545px) {
     #container {
-        margin: 0px 20px;
+        margin: 0px 10px;
         min-height: 400px;
         text-align: center;
     }
     #container .jokes{
         padding: 0px 10px;
+    }
+    #container .heading h2 {
+        font-size: 1.6;
+    }
+    #get {
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 1.0em;
+        color: rgba(0, 0, 0,0.5);
     }
 }
